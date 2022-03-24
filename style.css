@@ -6,7 +6,11 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding-left: 256px;
+  padding-right: 256px;
 }
+
+
 
 /* header {
     display: grid;
@@ -17,13 +21,14 @@ a {
   color: #ebbab9;
   text-decoration: none;
   font-family: "Poppins";
-  font-weight: 500;
-  font-size: 28;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 nav {
   display: flex;
   align-items: center;
+  margin-top: 32px;
   margin-bottom: 128px;
   /* padding: 16px; */
 }
