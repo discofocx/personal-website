@@ -2,57 +2,98 @@
 <head>
   <link rel="stylesheet" href="style.css" />
   <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
 <body>
   <header>
-    <div id="logo">Gerardo Corona Sorchini</div>
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
+      <h3 id="logo">Gerardo Sorchini</h3>
+      <ul class="navigation-items">
+        <li class="navigation-item">
+          <a href="#home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#about">About</a>
+        </li>
+        <li class="navigation-item">
+          <a href="#work">Work</a>
+        </li>
+      </ul>
+      <ul class="social-items">
+        <li class="social-item">
+          <a href="https://www.linkedin.com/in/sorchini/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="social-item">
+          <a href="#about">Instagram</a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.mixcloud.com/jupiterpink/" target="_blank"
+            >Mixcloud</a
+          >
+        </li>
       </ul>
     </nav>
-    <ul>
-      <li>LinkedIn</li>
-      <li>Instagram</li>
-      <li>Mixcloud</li>
-    </ul>
   </header>
   <main role="main">
     <section id="hero">
-      <div id="hero-text">
-        <h3>Hello, I am Gerardo</h3>
-        <h1>Technical Art Director</h1>
-        <h3>based in Los Angeles, CA</h3>
-      </div>
-      <div id="hero-picture">
-        <img src="headshot.JPG" alt="Gerardo's Headshot" width="256px" />
-      </div>
-      <div id="hero-button">
-        <button type="button">Resume</button>
+      <div class="hero-container">
+        <div class="hero-text-container">
+          <h4>Hello, I am Gerardo</h4>
+          <h1>Technical Art<br />Director</h1>
+          <h4>based in Los Angeles, CA.</h4>
+          <button type="button">Resume</button>
+        </div>
+        <img
+          src="headshot_square.jpg"
+          alt="A photo of Gerardo Sorchini"
+          class="portrait"
+          width="512px"
+          height="512px"
+        />
       </div>
     </section>
     <section id="about-me">
       <h2>about.</h2>
-      <p>About me!</p>
+      <p>
+        As a Technical Art Director, I focus on advancing tools, workflows and
+        pipelines to empower motion capture teams to deliver quality data at
+        scale. From a script to a completely standalone application to aid
+        anywhere between production, real-time visualisation or data
+        post-processing and integration.
+      </p>
+      <div id="EA">
+        <h4>Electronic Arts 2019 - Present</h4>
+      </div>
+      <div id="Framestore">
+        <h4>Framestore 2016 - 2019</h4>
+      </div>
+      <div id="HCG">
+        <h4>HCG Technologies 2012 - 2016</h4>
+      </div>
     </section>
     <section id="work">
       <h2>work.</h2>
       <p>My Work</p>
     </section>
     <section id="contact">
-        <h2>contact.</h2>
-        <p>Let's chat</p>
-      </section>
+      <h2>contact.</h2>
+      <p>Let's chat</p>
+    </section>
   </main>
   <footer>
-    <p>&copy; 2022 Gerardo Corona Sorchini</p>
-    <address>
-    Contact <a href="mailto:gsorchin@gmail.com">me</a>
-    </address>
+    <p>Copyright &copy; 2022 Gerardo Corona Sorchini. All rights reserved.</p>
+    <address>Contact <a href="mailto:gsorchin@gmail.com">me</a></address>
   </footer>
 </body>
-
-
